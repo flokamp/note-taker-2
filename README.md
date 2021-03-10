@@ -1,4 +1,5 @@
 # Note Taker
+[Test it out](https://my-note-taker-project.herokuapp.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -9,8 +10,6 @@ Features includes:
 - Add notes
 - Delete notes
 - Edit existing notes
-
-[View example page](https://my-note-taker-project.herokuapp.com/)
 
 ![Screenshot](/public/assets/images/note-taker.png)
 
