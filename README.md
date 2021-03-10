@@ -22,7 +22,7 @@ Note Taker is a an application that allows you to write and save notes so you ca
 
 To install this application, you'll need Git and Node.js installed on your computer. From the command line:
 
-1. Clone this repository: `git@github.com:flokamp/team-profile-generator.git`
+1. Clone this repository: `git@github.com:flokamp/note-taker-2.git`
 2. Go to the root directory and install dependencies: `npm install`
 
 
