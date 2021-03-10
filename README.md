@@ -1,5 +1,5 @@
 # Note Taker
-[Test it out](https://my-note-taker-project.herokuapp.com/)
+[Demo Note Taker](https://my-note-taker-project.herokuapp.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
