@@ -5,6 +5,10 @@
 ## Description
 
 Note Taker is a an application that allows you to write and save notes so you can organize your thoughts and keep track of tasks you need to complete.
+Features includes:
+- Add notes
+- Delete notes
+- Edit existing notes
 
 [View example page](https://my-note-taker-project.herokuapp.com/)
 
