@@ -4,7 +4,7 @@
 
 ## Description
 
-Note Taker is a an application that allows you to write and save notes so you can organize your thoughts and keep track of tasks you need to complete.
+Powered by ExpressJS, Note Taker is an application that allows you to write quick notes.
 Features includes:
 - Add notes
 - Delete notes
