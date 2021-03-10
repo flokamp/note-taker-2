@@ -1,3 +1,4 @@
+
 const router = require('express').Router();
 let { notes } = require('../db/db.json');
 const fs = require('fs');
@@ -20,6 +21,11 @@ router.get('/notes/:id', (req, res) => {
 // push to notes array and json file
 router.post('/notes', (req, res) => {
   const note = req.body;
+
+  if (req.body.id !== undefined) {
+    console.log(req.body.id)
+    notes.map(note);
+  } else {
   // set id based on what the next index of the array will be
   req.body.id = notes.length.toString();
   notes.push(note);
@@ -29,7 +35,12 @@ router.post('/notes', (req, res) => {
     JSON.stringify({notes: notes}, null, 2)
   );
   res.json(note)
+  }
 });
+
+
+
+
 
 // delete note
 router.delete('/notes/:id', (req, res) => {
