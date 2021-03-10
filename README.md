@@ -8,7 +8,7 @@ Note Taker is a an application that allows you to write and save notes so you ca
 
 [View example page](https://my-note-taker-project.herokuapp.com/)
 
-![Screenshot](/public/assets/images/note-taker)
+![Screenshot](/public/assets/images/note-taker.png)
 
 ## Table of Contents
 
