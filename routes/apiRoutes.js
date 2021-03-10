@@ -11,17 +11,15 @@ router.get('/notes', (req, res)=>{
 // push to notes array and json file
 router.post('/notes', (req, res) => {
   const note = req.body;
-
-
-  
-  // note.id = req.body.id === true ? req.body.id : notes.length.toString();
   if (req.body.id) {
     // find that note in the notes array using the id
     const { id } = req.body;
     let existing = notes.findIndex(note => note.id === id)
     console.log(existing)
+    // update existing note objext
     notes[existing] = note;
-  
+
+  // set unique id if note does not exist
   } else {
     note.id = uuidv4();
     notes.push(note);
